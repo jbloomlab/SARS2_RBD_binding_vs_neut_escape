@@ -1,0 +1,19 @@
+name: SARS2_RBD_binding_vs_neut_escape
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - biopython=1.81
+  - git-lfs
+  - jupyterlab
+  - nbstripout
+  - openpyxl
+  - pandas=2.0
+  - pip
+  - python=3.10
+  - xlrd
+  - pip:
+    - dmslogo==0.6.3
+    - altair==5.0.0rc1
